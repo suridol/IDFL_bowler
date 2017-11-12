@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lan='en'>
+	<head>
+		<meta charset = "utf-8">
+		<title>{% block title %} Bowling Score {% endblock %}</title>
+	</head>
+	<body>
+		<header>
+			<h1>BOWLING SCORE SITE</h1>
+			<a href="{% url 'signup' %}">PRESS ENTER</a>
+		</header>
+		<main>
+			{% block content %}
+			{% endblock %}
+		</main>
+	</body>
+</html>
